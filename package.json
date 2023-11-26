@@ -1,0 +1,15 @@
+{
+  "name": "immer-freeze",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "immer": "^10.0.3"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
+}
