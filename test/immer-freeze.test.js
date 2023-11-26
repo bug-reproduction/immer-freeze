@@ -10,6 +10,7 @@ describe('immer freeze', function () {
         const draft = createDraft(obj);
         draft.list.push("one")
         const final = finishDraft(draft);
+        console.log("same instance?", final == obj)
         obj.list.push("two");
     })
 
@@ -19,6 +20,7 @@ describe('immer freeze', function () {
         }
         const draft = createDraft(obj);
         const final = finishDraft(draft);
+        console.log("same instance?", final == obj)
         obj.list.push("one");
     });
 })
